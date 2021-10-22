@@ -3,7 +3,7 @@
   
 <h3>📌 Aboute Me!</h3>
   
-  🙋 DevOps, bodybuilding, study and reading!
+  🙋 DevOps, sports, study and reading!
   
   💼 Working as a SRE/DevOps Engineer
   
