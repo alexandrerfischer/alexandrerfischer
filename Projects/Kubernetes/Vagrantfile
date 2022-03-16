@@ -1,0 +1,15 @@
+Vagrant.configure("2") do |config|
+    config.vm.define "K3S" do |vagrant|
+        vagrant.vm.box = "debian/bullseye64"
+        vagrant.disksize.size = "100GB"
+        vagrant.vm.network "public_network", bridge: "en0: Ethernet", ip: "192.168.100.100"
+        vagrant.vm.synced_folder "/Volumes/DATA/Tecnologia/GitHub/alexandrerfischer/Projects/Kubernetes/P_KS3/", "/Projects/"
+        vagrant.vm.provider "virtualbox" do |v|
+            v.memory = 4096
+            v.cpus = 1
+            v.name = "K3S"
+        end
+    end    
+    config.vm.provision "shell", path: "initial-configs.sh"
+    config.vm.provision "shell", path: "initial-docker.sh"
+end
