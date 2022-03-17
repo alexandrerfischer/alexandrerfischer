@@ -5,4 +5,4 @@ apt upgrade -y
 apt dist-upgrade -y
 apt install vim net-tools mlocate wget unzip git curl -y
 
-hostnamectl set-hostname K3S
+hostnamectl set-hostname "$1"
