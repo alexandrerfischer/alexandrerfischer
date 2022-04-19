@@ -10,9 +10,10 @@ Vagrant.configure("2") do |config|
                 v.cpus = 1
                 v.name = "K8S_00#{i}"
             end
-        config.vm.provision :shell, :path => "initial-configs.sh", :args => "'K8S_00#{i}'"
+        config.vm.provision :shell, :path => "initial-configs.sh"
         config.vm.provision :shell, :path => "initial-docker.sh"
         config.vm.provision :shell, :path => "initial-kubectl.sh"
+        config.vm.provision :shell, :path => "initial-helm.sh"
         end
     end
     (1..1).each do |i|
@@ -26,9 +27,10 @@ Vagrant.configure("2") do |config|
                 v.cpus = 1
                 v.name = "RANCHER_00#{i}"
             end
-        config.vm.provision :shell, :path => "initial-configs.sh", :args => "'RANCHER_00#{i}'"
+        config.vm.provision :shell, :path => "initial-configs.sh"
         config.vm.provision :shell, :path => "initial-docker.sh"
         config.vm.provision :shell, :path => "initial-kubectl.sh"
+        config.vm.provision :shell, :path => "initial-helm.sh"
         end
     end
 end
