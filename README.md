@@ -3,9 +3,9 @@
   
 <h3>📌 Aboute Me!</h3>
   
-  🙋 DevOps, sports, study and reading!
+  🙋 DevSecOps/DevOps/SRE, sports, study, reading and guitar!
   
-  💼 Working as a SRE/DevOps Engineer
+  💼 Working as a DevSecOps
   
   #
 
