@@ -1,11 +1,11 @@
 <div align="center">
-<h2> Hello, I am Alexandre Fischer</h2>
+<h2> Hello, I am Alexandre Robson Fischer</h2>
   
 <h3>📌 Aboute Me!</h3>
   
   🙋 DevSecOps/DevOps/SRE, sports, study, reading and guitar!
   
-  💼 Working as a DevSecOps
+  💼 Working as a DevOps
   
   #
 
@@ -18,7 +18,7 @@
 <h2>⚙️ Stacks - Study or Work</h2>
   
 <div style="display: inline_block"><br>
-  <img align="center" alt="Ale-AWS" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg">
+  <img align="center" alt="Ale-AWS" height="50" width="50" src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg">
   <img align="center" alt="Ale-K8S" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg">
   <img align="center" alt="Ale-Docker" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg">
   <img align="center" alt="Ale-Vagrant" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vagrant/vagrant-original.svg">
